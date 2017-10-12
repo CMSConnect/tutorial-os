@@ -1,0 +1,11 @@
+Universe = vanilla 
+Executable = short.sh 
+Arguments = 60 # to sleep 60 seconds 
+Error = log/job.err.$(Cluster)-$(Process) 
+Output = log/job.out.$(Cluster)-$(Process) 
+Log = log/job.log.$(Cluster) 
+
+# Use "rhel6", "rhel7" or "any" for RedHat6, RedHat7, or any of them, respectively.
++REQUIRED_OS = "rhel7"
+
+Queue 1
