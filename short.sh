@@ -15,6 +15,4 @@ else
 fi
 
 echo
-echo "Working hard..."
-sleep ${1-15}
-echo "Science complete!"
+echo "End of script!"
