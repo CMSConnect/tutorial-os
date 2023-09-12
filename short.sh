@@ -7,7 +7,7 @@ printf "Job running as user: "; /usr/bin/id
 printf "Job is running in directory: "; /bin/pwd 
 
 echo
-echo "Operative system:"
+echo "Operating system:"
 if [ -f /etc/redhat-release ]; then
   cat /etc/redhat-release
 else
